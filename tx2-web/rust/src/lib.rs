@@ -50,7 +50,7 @@ pub fn init(log_level: &str) -> Result<(), JsValue> {
     );
     event!(
         Level::INFO,
-        "init: tracing iniialised (max level is {log_level})"
+        "init: tracing initialised (max level is {log_level})"
     );
     Ok(())
 }
